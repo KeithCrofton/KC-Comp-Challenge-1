@@ -3,6 +3,7 @@ body {
   background-color: lightgrey;
   display: flex;
   flex-direction: column;
+  font-family: sans-serif;
 }
 .top-bar{
   background-color: lightblue;
@@ -26,5 +27,33 @@ body {
   justify-content: space-around;
 }
 .card-display{
+
   background-color: lightgreen;
+  height: 800px;
+}
+.shares{
+  align-items: center;
+  height: 80px;
+  padding: 20px;
+  border: solid;
+  border-width: 3px;
+  border-color: blue;
+  font-size: 26px;
+}
+.card-area{
+
+  display: grid;
+
+    /* grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) ); */
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  grid-auto-rows: minmax (100px, auto) */
+}
+.card{
+  display:flex;
+  flex-direction: column;
+  border:solid;
+  border-width:3px;
+  border-color:blue;
 }
