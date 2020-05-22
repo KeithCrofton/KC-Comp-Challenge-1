@@ -1,0 +1,30 @@
+body {
+  height: 100%,auto;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+}
+.top-bar{
+  background-color: lightblue;
+  height: 110px;
+  display: flex;
+  padding: 15px;
+}
+
+.low-left{
+  width: 50%;
+ display: flex;
+ align-items: flex-end;
+ justify-content: space-around;
+}
+
+.right{
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card-display{
+  background-color: lightgreen;
+}
