@@ -6,13 +6,14 @@ body {
   font-family: sans-serif;
 }
 .top-bar{
-  background-color: lightblue;
+  background-color: #2C2C34;
   height: 110px;
   display: flex;
   padding: 15px;
 }
 
 .low-left{
+  color: #929196;
   width: 50%;
  display: flex;
  align-items: flex-end;
@@ -20,16 +21,18 @@ body {
 }
 
 .right{
+  color: #929196;
   width: 50%;
   display: flex;
   align-items: flex-end;
   flex-direction: column;
   justify-content: space-around;
+
 }
 .card-display{
-
-  background-color: lightgreen;
-  height: 800px;
+  padding: 10px;
+  background-color: #C1A3D9;
+  height: auto;
 }
 .shares{
   align-items: center;
@@ -39,6 +42,7 @@ body {
   border-width: 3px;
   border-color: blue;
   font-size: 26px;
+  color: #2C2C34;
 }
 .card-area{
 
@@ -51,6 +55,7 @@ body {
   grid-auto-rows: minmax (100px, auto) */
 }
 .card{
+  background-color: white;
   display:flex;
   flex-direction: column;
   border:solid;
