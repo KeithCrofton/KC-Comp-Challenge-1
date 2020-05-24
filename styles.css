@@ -11,9 +11,26 @@ body {
   display: flex;
   padding: 15px;
 }
+.shares-img{
+  height: 16px;
+  width: 16px;
+  color: white;
+}
+.agenda-img{
+  height: 16px;
+  width: 16px;
+}
+.flower-img{
+  height: 16px;
+  width: 16px;
+}
+.farmer-img{
+  height: 16px;
+  width: 16px;
+}
 
 .low-left{
-  color: #929196;
+  color: #D3D3D5;
   width: 50%;
  display: flex;
  align-items: flex-end;
@@ -21,7 +38,7 @@ body {
 }
 
 .right{
-  color: #929196;
+  color: #D3D3D5;
   width: 50%;
   display: flex;
   align-items: flex-end;
@@ -31,7 +48,7 @@ body {
 }
 .card-display{
   padding: 10px;
-  background-color: #C1A3D9;
+  background-color: #D3D3D5;
   height: auto;
 }
 .shares{
@@ -39,7 +56,7 @@ body {
   height: 80px;
   padding: 20px;
   border: solid;
-  border-width: 3px;
+  border-width: 0px;
   border-color: blue;
   font-size: 26px;
   color: #2C2C34;
@@ -60,5 +77,12 @@ body {
   flex-direction: column;
   border:solid;
   border-width:3px;
-  border-color:blue;
+  border-color:#9D9CA1;
+}
+.card-contents{
+  padding: 10px;
+}
+.card-image{
+  height:125px;
+  width: 100%;
 }
