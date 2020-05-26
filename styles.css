@@ -64,12 +64,9 @@ body {
 .card-area{
 
   display: grid;
-
-    /* grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) ); */
-
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 5px;
-  grid-auto-rows: minmax (100px, auto) */
+  grid-auto-rows: minmax (100px, auto)
 }
 .card{
   background-color: white;
@@ -79,10 +76,133 @@ body {
   border-width:3px;
   border-color:#9D9CA1;
 }
+.card-name{
+  font-size: 14pt;
+}
+.card-date{
+  font-size: 10pt;
+}
+.card-greyWebsiteBox{
+  background-color: lightgrey;
+  font-size: 12pt;
+}
+.card-playlist{
+  font-size: 10pt;
+}
+.card-nameOfPlaylist{
+  font-size: 12pt;
+}
+.card-attachments{
+  font-size: 8pt;
+}
 .card-contents{
   padding: 10px;
 }
 .card-image{
   height:125px;
   width: 100%;
+}
+
+@media only screen and (max-width: 1000px){
+  .card-area{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    grid-auto-rows: minmax (100px, auto) */
+  }
+}
+@media only screen and (max-width: 700px){
+  .card-area{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    grid-auto-rows: minmax (100px, auto) */
+  }
+}
+
+@media only screen and (max-width: 605px){
+  .card-area{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    grid-auto-rows: minmax (100px, auto)
+  }
+  .top-bar{
+    background-color: #2C2C34;
+    height: 110px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 15px;
+  }
+  .low-left{
+    color: #D3D3D5;
+    /* border: solid;
+    border-width: 3px;
+    border-color: pink; */
+    width: 100%;
+    height: 40%;
+    display: flex;
+   justify-content: space-evenly;
+   align-items: flex-end;
+   align-content: flex-end;
+
+  }
+  .right{
+    color: #D3D3D5;
+    /* border: solid;
+    border-width: 3px;
+    border-color: blue; */
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+
+  }
+}
+
+@media only screen and (max-width: 314px){
+  .card-area{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    grid-auto-rows: minmax (100px, auto)
+  }
+  .top-bar{
+    background-color: #2C2C34;
+    height: 110px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 15px;
+  }
+  .low-left{
+    color: #D3D3D5;
+    /* border: solid;
+    border-width: 3px;
+    border-color: pink; */
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+   /* justify-content: space-evenly; */
+   align-items: flex-end;
+   align-content: flex-end;
+
+  }
+  .right{
+    color: #D3D3D5;
+    /* border: solid;
+    border-width: 3px;
+    border-color: blue; */
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+
+  }
 }
